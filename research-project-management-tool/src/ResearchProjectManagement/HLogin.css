@@ -1,0 +1,115 @@
+.base-container{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    opacity: 1.6;
+    background-image:url('../ResearchTools/researchTool7.PNG');
+}
+
+.header{
+    font-size: 28px;
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    width: 28em;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+margin-top: 2em;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    
+}
+
+label{
+    font-size: 20px;
+}
+
+.containerblock4{
+  margin-left:60px;
+  margin-right:5px; 
+  margin-top:30px;
+  border:1px solid #7c7eae;
+  padding: 40px;
+  padding-left:20px;
+  width:500px;
+  background-color:#688da8;
+  background: rgba(208, 209, 215, 0.4);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.60), 0 17px 50px 0 rgba(0,0,0,0.39);
+}
+
+input{
+    margin: 6px;
+    min-width: 18em;
+    height: 37px;
+    border: 0.01px solid rgb(176, 191, 209);
+    padding: 0px 10px;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    background-color: azure;
+    border-radius: 4px;
+    margin-bottom: 31px;
+    transition: all 250ms ease-in-out;
+
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 12px 0.8px rgb(9, 9, 53);
+}
+
+.lefcontent{
+    margin-right:-25px;
+    padding-right: 20px;
+    font-size: smaller;
+    color: rgb(8, 8, 75);
+}
+
+.btnn{
+    font-size: 21px;
+    padding: 5px 12px;
+    border: 0;
+    background-color: rgb(54, 54, 122);
+    cursor: pointer;
+    opacity: 0.9;
+    color: rgb(233, 232, 242);
+    border-radius: 3px;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+    
+}
+
+.btnn:hover{
+        background-color:rgb(73, 73, 204);
+    }
+
+.btnn:focus{
+    outline: none;
+    box-shadow: 0px 0px 12px 0.8px rgb(50, 50, 143);
+}
+
+.footer{
+    margin-top: 3em;
+}
+

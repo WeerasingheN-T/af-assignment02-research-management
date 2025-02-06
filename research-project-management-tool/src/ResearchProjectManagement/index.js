@@ -1,0 +1,15 @@
+export { default as Header} from "./Header";
+export { default as LoginRegister} from "./LoginRegister";
+export { default as HLogin} from "./HLogin";
+export { default as AllRegister} from "./AllRegister";
+export { default as ViewStaff} from "./ViewStaff";
+export { default as EditStaff} from "./EditStaff";
+export { default as ViewTopics} from "./ViewTopics";
+export { default as MarkingScheme} from "./MarkingScheme";
+export { default as MarkingSchemfiles} from "./MarkingSchemfiles";
+export { default as ResearchFaculty} from "./ResearchFaculty";
+export { default as SupChatHandle} from "./SupChatHandle";
+export { default as SupHChat} from "./SupHChat";
+export { default as LiveChats} from "./LiveChats";
+export { default as SupOperations} from "./SupOperations";
+export { default as ResearchFooter} from "./ResearchFooter";

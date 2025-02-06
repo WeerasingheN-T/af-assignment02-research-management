@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .image1{
+    margin-left: -800px;
+    margin-right: -90px;
+    margin-top: 40px;
+    width: 36em;
+    height: 35.4em;
+   
+}
+
+  .containerblock{
+    margin-right: -564px;
+    margin-top:-568px;
+    border:1px solid #7c7eae;
+    padding: 20px;
+    padding-left:20px;
+    width:700px;
+    background-color:#688da8;
+    background: rgba(208, 209, 215, 0.4);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.60), 0 17px 50px 0 rgba(0,0,0,0.39);
+  }
+
+  .images{
+    padding-left: 1px;
+  }
+
+  .images3{
+    width: 100%;
+    border: 1px solid rgb(248, 242, 236);
+    background: rgba(237, 236, 232, 0.804);
+  }
+  
+  .images4{
+    margin-left: 160px;
+    margin-right: -400px;
+    margin-top: 30px;
+    width: 1240px;
+    height: 600px;
+    
+  }
+
+  .images8{
+    width: 100%;
+    padding-top: 2px;
+    background-image:url('../ResearchTools/SuChat.JPG');
+  }
+
+  .Tabletd{
+    border: 1px solid rgb(190, 167, 140);
+  }
+
+  .pfon{
+    font-style: normal;
+  }
+    
+  .lines{
+    width: 100%;
+    height: 80px;
+  }
+
+  .Tabletd{
+    column-width: auto;
+  }
+  
+  .outer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+  }
+  
+  .outer .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+  }
+  
+  .outer h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  
+  .custom-control-label {
+    font-weight: 400;
+  }
+  
+  .select{
+  margin: 6px;
+  min-width: 18em;
+  height: 37px;
+  border: 0.01px solid rgb(176, 191, 209);
+  padding: 0px 10px;
+  font-size: 16px;
+  font-family: "Open Sans",sans-serif;
+  background-color: azure;
+  border-radius: 4px;
+  margin-bottom: 31px;
+  transition: all 250ms ease-in-out;
+  }
+
+  .ck-control{
+    min-width: 2px;
+    height: 20px;
+    margin-left: -200px;
+    margin-top: 20px;
+  }
+
+  .agreement{
+    margin-right:-25px;
+    padding-right: 20px;
+    font-size: smaller;
+    color: rgb(8, 8, 75);
+  }
+
+  .facbttn{
+    padding: 16px;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 40px;
+    color: antiquewhite;
+    font-size: 30px;
+    background-color: rgb(131, 107, 21);
+    border: 1px solid #83611d;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s
+  }
+
+  .facbttn:hover{
+    transform: scale(1.1);
+    background-color: rgb(239, 214, 114);
+  }

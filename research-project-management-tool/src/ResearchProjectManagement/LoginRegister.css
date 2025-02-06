@@ -1,0 +1,28 @@
+.d-block {
+  margin-left:80px;
+  margin-right:160px; 
+  margin-top:1px;
+  border:1px solid rgb(11, 5, 4);
+  width:90%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.60), 0 17px 50px 0 rgba(0,0,0,0.39);
+}
+
+.carousel-item{
+  margin-left:0px;
+  margin-right:0px; 
+  margin-top:1px;
+  border:1px solid rgb(11, 5, 4);
+  padding-left:0px;
+  width:90%;
+  box-shadow: 0 9px 13px 0 rgba(0,0,0,0.60), 0 17px 50px 0 rgba(0,0,0,0.39);
+}
+
+.alld{
+  background-color: rgb(187, 163, 10);
+}
+
+.cardtext{
+  padding-left: 20px;
+  padding-right: 1200px;
+  color: bisque;
+}
